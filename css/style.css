@@ -170,6 +170,7 @@ ul, ol{
 /*===== ORDER END =====*/
 
 /* ===== INNER ===== */
+
 /* BTN */
 .buttons{
 	padding-top: 70px;
@@ -224,6 +225,7 @@ ul, ol{
 	padding-top: 308px;
     padding-left: 288px;
 }
+/* ===== TITLE ===== */
 .title{	
 	font-size: 38px;
 	letter-spacing: .05em;
@@ -242,6 +244,8 @@ ul, ol{
 	font-size: 16px;
     padding-top: 84px;
 }
+/* ===== TITLE END ===== */
+
 /* ===== INNER END ===== */
 
 
