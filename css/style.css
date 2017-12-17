@@ -24,6 +24,12 @@ ul, ol{
 	padding: 0;
 	margin: 0;
 }
+img{
+	max-width: 100%;
+}
+.text-center{
+	text-align: center;
+}
 /* RESET END */
 
 /* FLEX UTILITY */
@@ -171,6 +177,10 @@ ul, ol{
 
 /* ===== INNER ===== */
 
+.bc-color{
+	background-color: #f6f6f6;
+}
+
 /* BTN */
 .buttons{
 	padding-top: 70px;
@@ -209,25 +219,32 @@ ul, ol{
     height: 100vh;
     background: url("../img/inner-bg.jpg") no-repeat center / cover;
 }
+.bc-img .inner{
+	height: 50vh;
+	background: url("../img/inner-bg-end.jpg") no-repeat center / cover;
+}
 .container{
 	max-width: 1522px;
 	margin: auto;
 	padding: 0 15px;
 	display: flex;
 }
-.flex-content .phone-img{
+.inner-content .phone-img{
 	padding-top: 131px;
-}
-.flex-content .phone-img img{
-	width: 371px;
 }
 .flex-section{
 	padding-top: 308px;
     padding-left: 288px;
 }
 /* ===== TITLE ===== */
+.title,
+small-title,
+sub-title{
+	font-family: "Roboto", sans-serif;
+}
 .title{	
 	font-size: 38px;
+	font-weight: 500;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	line-height: 34px;
@@ -235,14 +252,70 @@ ul, ol{
 .small-title{
 	font-size: 38px;
 	letter-spacing: .2em;
-	font-weight: normal;
+	font-weight: 100;
 	display: inline-grid;
 	line-height: 34px;
 	padding-top: 65px;
 }
 .sub-title{
 	font-size: 16px;
+	font-weight: 500;
     padding-top: 84px;
+}
+.default-section .title{
+	font-size: 25px;
+	font-family: "Roboto", sans-serif;
+	color:  #4c4f5f;
+	text-transform: none;
+	padding-top: 71px;
+}
+.default-section .small-title{
+	font-size: 16px;
+	padding-top: 0;
+	color:  #4c4f5f;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+.flex-row .sub-title{
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	color:  #4c4f5f;
+	text-transform: none;
+	padding-top: 0;
+}
+.standart-section{
+	padding-bottom: 40px;
+}
+.standart-section .icon-img{
+	padding-right: 10px;
+}
+.opportunities{
+	padding-bottom: 84px;
+}
+.Rectangle{
+	padding-left: 201px;
+	padding-top: 109px;
+}
+.Rectangle img{
+	max-height: 700px;
+}
+.bc-img .title{
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 100px;
+}
+.bc-img .small-title{
+	font-size:  16px;
+	letter-spacing: .2em;
+	font-weight: 400;
+	display: inline-grid;
+	line-height: 18px;
+	padding-top: 17px;
+	text-transform: none;
 }
 /* ===== TITLE END ===== */
 
