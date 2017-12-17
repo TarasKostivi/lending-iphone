@@ -319,6 +319,8 @@ sub-title{
 	line-height: 18px;
 	text-align: center;
 	padding-top: 100px;
+    text-transform: none;
+    letter-spacing: 0;
 }
 .bc-img .small-title{
 	font-size:  16px;
