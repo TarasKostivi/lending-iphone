@@ -185,6 +185,11 @@ img{
 .submit{
     padding-top: 110px;
 }
+@media (max-width: 1199px){
+	.submit{
+		padding-top: 33px;
+	}
+}
 .submit .apple{
     margin-right: 27px;
 }
@@ -196,6 +201,12 @@ img{
 }
 .buttons{
 	padding-top: 70px;
+}
+/* */
+@media (max-width: 1199px){
+	.buttons{
+		padding-top: 48px;
+	}
 }
 .btn.btn-default.white-btn{
 	margin-right: 30px;
@@ -220,7 +231,15 @@ img{
 	color: #fff;
 	border: none;
 }
+/* ===== BTN  END===== */
+
 /* BTN END */
+.container{
+	max-width: 1522px;
+	margin: auto;
+	padding: 0 15px;
+	display: flex;
+}
 .header{
 	padding-top: 32px; 
 	position: fixed;
@@ -235,18 +254,24 @@ img{
 	height: 50vh;
 	background: url("../img/inner-bg-end.jpg") no-repeat center / cover;
 }
-.container{
-	max-width: 1522px;
-	margin: auto;
-	padding: 0 15px;
-	display: flex;
-}
 .inner-content .phone-img{
 	padding-top: 131px;
 }
-.flex-section{
+@media (max-width: 1199px){
+	.inner-content .phone-img{
+		padding-top: 90px;
+	}
+
+}
+	.flex-section{
 	padding-top: 308px;
     padding-left: 288px;
+}
+@media (max-width: 1199px) {
+	.flex-section{
+		padding-top: 196px;
+		padding-left: 131px;
+	}
 }
 /* ===== TITLE ===== */
 .title,
@@ -274,6 +299,14 @@ sub-title{
 	font-weight: 500;
     padding-top: 84px;
 }
+@media (max-width: 1199px){
+	.small-title{
+		padding-top: 40px;
+	}
+	.sub-title{
+		padding-top: 48px;
+	}
+}
 .default-section .title{
 	font-size: 25px;
 	font-family: "Roboto", sans-serif;
@@ -297,6 +330,30 @@ sub-title{
 	text-transform: none;
 	padding-top: 0;
 }
+.bc-img .title{
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 100px;
+	text-transform: none;
+	letter-spacing: 0;
+}
+@media (max-width: 1199px){
+	.bc-img .title{
+		padding-top: 50px;
+	}
+}
+.bc-img .small-title{
+	font-size:  16px;
+	letter-spacing: .2em;
+	font-weight: 400;
+	display: inline-grid;
+	line-height: 18px;
+	padding-top: 17px;
+	text-transform: none;
+}
+/*===== TITLE END =====*/
 .standart-section{
 	padding-bottom: 40px;
 }
@@ -310,26 +367,13 @@ sub-title{
 	padding-left: 201px;
 	padding-top: 109px;
 }
+@media (max-width: 1199px){
+	.rectangle{
+		padding-left: 0;
+	}
+}
 .rectangle img{
 	max-height: 700px;
-}
-.bc-img .title{
-	font-size: 25px;
-	font-weight: 500;
-	line-height: 18px;
-	text-align: center;
-	padding-top: 100px;
-    text-transform: none;
-    letter-spacing: 0;
-}
-.bc-img .small-title{
-	font-size:  16px;
-	letter-spacing: .2em;
-	font-weight: 400;
-	display: inline-grid;
-	line-height: 18px;
-	padding-top: 17px;
-	text-transform: none;
 }
 .email{
     font-size: 20px;
@@ -352,8 +396,6 @@ sub-title{
 .number{
     margin-left: auto;
 }
-/* ===== TITLE END ===== */
-
 /* ===== INNER END ===== */
 
 
